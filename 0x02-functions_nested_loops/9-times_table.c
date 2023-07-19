@@ -22,7 +22,7 @@ void times_table(void)
 			 * put space if product is single number
 			 * place the first digit if its two number
 			 */
-			if (num <= 9)
+			if (prod <= 9)
 				_putchar(',');
 			else
 				_putchar((prod / 10) + 48); /*get the first digit*/
