@@ -8,7 +8,7 @@
 
 void more_numbers(void)
 {
-	int num, count, row;
+	int  count, row;
 
 	for (row = 1; row <= 10; row++)
 	{
@@ -23,3 +23,4 @@ void more_numbers(void)
 		}
 		_putchar('\n');
 	}
+}
