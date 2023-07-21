@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * return : always 0 (success)
+ * Return: always 0 (success)
  */
 
 int main(void)
@@ -9,7 +9,7 @@ int main(void)
 	char c;
 
 	c = 'a';
-while (c <= 'z') 
+while (c <= 'z')
 {
 	putchar(c);
 	c++;
