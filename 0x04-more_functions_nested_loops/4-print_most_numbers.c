@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - prints from 0 - 9
- * except 2 nd 4
+ * except 2 and 4
  * Return: always 0 success
  */
 
