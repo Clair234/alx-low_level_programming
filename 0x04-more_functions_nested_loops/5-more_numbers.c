@@ -5,6 +5,7 @@
  *
  * Return: Always 0 success
  */
+
 void more_numbers(void)
 {
 	int num, count, row;
