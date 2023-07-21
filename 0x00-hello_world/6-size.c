@@ -4,7 +4,7 @@
  *main - Entry point
  *
  *Description: using sizeof to print the size of various types
- * 
+ *
  *Return: 0 (success)
 */
 
