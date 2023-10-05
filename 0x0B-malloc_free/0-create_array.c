@@ -8,7 +8,7 @@
  * Return: pointer to the array intiliazed or null
  */
 
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *n = malloc(size);
 
