@@ -13,23 +13,13 @@ char *_strdup(char *str)
 	char *m;
 
 	if (str = NULL)
-		return (NULL);
+		return(NULL);
 
-	for (; str[size] != '\0'; size++)
-		;
-
-	/*+1 on the size puts the end of string character*/
-	m = malloc(size * sizeof(*str) + 1);
-
-	if (m == 0)
-	{
-		return (NULL);
-	}
-	else
-	{
-		for (; i < size; i++)
-			m[i] = str[i];
-	}
+	while (str[i] != '\0')
+		i++;
+	if (m == NULL)
+		return(NULL);
+	for (size = 0; str[size]; size++)
+		m[size] = str[size];
 	return (m);
 }
-
