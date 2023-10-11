@@ -6,6 +6,8 @@
  * @name: dog's name
  * @age: dog's age
  * owner: owner's name
+ *
+ * Retuen: void
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
